@@ -23,7 +23,7 @@ h5 {
 
 
 #headerbio {
-	font-family: 'Playfair';
+	font-family: 'Merriweather';
   font-weight:900;
 	font-size:23px;
 	position: center;
@@ -35,7 +35,7 @@ h5 {
 }
 
 #header {
-  font-family: Georgia;
+  font-family: 'Playfair';
   font-weight:900;
   font-size: 60px;
   width:100%;
