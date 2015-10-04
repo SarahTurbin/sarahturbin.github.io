@@ -26,12 +26,15 @@ h5 {
 	font-family: 'Merriweather';
   font-weight:900;
 	font-size:23px;
-	position: center;
+	text-align: center;
 	color: #008080;
 	background-color: #eeeeee;	
 	padding-bottom:80px;
-	padding-left: 300px;
-	padding-right: 300px;
+}
+
+#headerbio p {
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 #header {
@@ -226,26 +229,34 @@ display: inline;
 margin-bottom:18px;
 padding-top:25px;
 
-}}
+}
 
 
 
 
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 400px) {
     #imagegallery li {
         width: relative; /* define a proper width that you think is right */
     }
-}
-
-@media screen and (max-width:767px) {
-    #contactinfo li {
+     #contactinfo li {
         width: relative; /* define a proper width that you think is right */
     }
-@media screen and (max-width:767px) {
     #header {
         width: relative; /* define a proper width that you think is right */
     }
+
+    #headerbio {
+      text-align:left;
+      font-size:25px;
+    }
+
+    #headerbio p {
+      max-width: 80%;
+      
+    }
+
+}
 
 
 /*
