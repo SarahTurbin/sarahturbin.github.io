@@ -1,185 +1,185 @@
-body {
-  font-family: 'Arimo';
+html, body {
+
+margin:0;
+padding:0;
+text-decoration: none;
+
+}
+
+a:link {color: black;
+  text-decoration:none;}      /* unvisited link */
+       a:visited {color: black;}   /* visited link */
+       a:hover {color: black;}     /* mouse over link */
+       a:active {color: black;} 
+
+
+
+div.title {
+    font-family: 'Crimson+Text';
+    font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  font-size:80px;
+  text-align: center;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom:0px;
+text-decoration: none;
+
 }
 
 h4 {
-
-  font-size:14px;
-  color: #055fa3;
-  padding-bottom:5px;
-  
-
-
-  
- 
+  text-align: center;
+  font-size: 20px;
+  color: #bcbcbc;
+  font-family: 'Verdana';
+    font-style: normal;
+  font-variant: normal;
 }
 
 h5 {
-  font-family: 'Arimo';
-  font-size:12px;
- color: #055fa3;
- padding-bottom:5px;
- 
-
-
+  text-align: center;
+  font-size: 16px;
+  color: #bcbcbc;
+  font-family: 'Verdana';
 }
 
-h3 {
-  font-family: 'Arimo';
-  font-size:13px;
-  color: #055fa3;
-
-
-}
-
-h2 {
-  
-  font-weight:800;
-  font-family: 'Miniver';
-  font-size:18px;
-
+div.titlehead {
+  font-size:10px;
+ background-color: mediumseagreen;
+    color: white;
+    padding:5px;
+    text-decoration: none;
+    display: inline-block;
+    font-family:'Roboto';
+    position: relative;
+    z-index: 2;
+    margin:0;
+    left:20px;
 
 
 }
 
 
+div.gallery {
+    border: ;
 
-#headerbio p {
-  
-  margin: 0 auto;
+
 }
 
-#header {
-  
-  font-weight:800;
-  font-family: 'Miniver';
-  font-size: 48px;
-  width:100%;
-  text-align: left;
-
+div.gallery img {
     width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    z-index: 0;
+    height: auto;
+    padding: 10px;
+    
 
- 
+}
 
-   }
+div.desc {
+    padding: 5px;
+    padding-bottom:35px;
+    text-align: center;
+    font-size:12px;
+    font-family: 'Roboto';
+}
+
+div.about {
+
+  font-size:12px;
+    font-family: 'Roboto';
+    width: 500px;
+    margin: 0 auto;
+    text-align:left;
+
+
+}
 
 * {
-    margin:0;
-    padding:0;
+    box-sizing: border-box;
 }
 
-
-#container {
-    width: 960px;
-    margin:0 auto;
+.responsive {
+    padding: 0 10px;
+    float: left;
+    width: 24.99999%;
 }
 
-
-
-#copyright {
-  font-family: 'Arimo', sans-serif;
-  font-size: 10px;
-    text-transform: uppercase;
-  
+img:hover {
+     opacity: 0.5;
 }
 
-
-a:link {
-  color: #055fa3;
-  text-decoration: none
-}
-a:active {
-  color: #055fa3;
+@media only screen and (max-width: 900px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
 }
 
-a:visited {
- color: #055fa3;
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
 }
 
-a { color: inherit; } 
-
-#subtitle {
-  font-family:'Arimo';
-  font-weight:400;
-  text-transform:uppercase;
-  font-size: 12px;
-
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-
-
-#center{
-  width: 60%;
-  position: center;
-  font-family: Arial;
-  font-size: 14px;
-}
-
-#writing{
-   width: 53%;
-    margin-left: auto;
-    margin-right:auto;
-}
-
-
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 ul {
-    list-style-position: outside;
-      
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    display: table;
+    margin: 0 auto;
+    padding-bottom:50px;
 }
 
-
-table { 
-  width: 68%; 
-  border-collapse: collapse; 
-  text-align:left;
-
-}
-/* Zebra striping */
-tr:nth-of-type(odd) { 
-
+li {
+    float: left;
 }
 
-td, th { 
-  padding: 11px; 
-  font-size:11.5px;
-  vertical-align: top;
-
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    font-size:12px;
+    font-family: 'Roboto';
+    padding: 5px 5px;
+    text-decoration: none;
 }
 
-
-
-
-
-@media screen and (max-width: 400px) {
-    #imagegallery li {
-        width: relative; /* define a proper width that you think is right */
-    }
-    #header {
-        width: relative; /* define a proper width that you think is right */
-        font-size:24px;
-        text-align:left;
-    }
-
-    #headerbio {
-      text-align:left;
-      font-size:14px;
-      width: relative;
-      max-width:60%;
-    }
-
-
-    table { 
-  width: relative; 
-
-      
-    }
-
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: mediumseagreen;
+    color: white;
 }
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #808080}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
