@@ -7,7 +7,7 @@ text-decoration: none;
 }
 
 a:link {color: black;
-  text-decoration-line:underline;}      /* unvisited link */
+  text-decoration: none;}      /* unvisited link */
        a:visited {color: black;}   /* visited link */
        a:hover {color: black;}     /* mouse over link */
        a:active {color: black;} 
@@ -83,6 +83,10 @@ div.desc {
     font-size:12px;
     font-family: 'Roboto';
   
+}
+
+div.desc a:link {
+  text-decoration: underline;
 }
 
 div.about {
