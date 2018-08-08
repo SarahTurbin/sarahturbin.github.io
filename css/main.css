@@ -82,7 +82,6 @@ div.desc {
     text-align: center;
     font-size:12px;
     font-family: 'Roboto';
-   width: 66%;
 position: absolute;
   display: inline-block;
  
@@ -93,6 +92,15 @@ position: absolute;
 div.desc a:link {
   text-decoration: underline;
 }
+
+div.description {
+    padding: 5px;
+    padding-bottom:35px;
+    text-align: center;
+    font-size:12px;
+    font-family: 'Roboto';
+   width: 66%;
+position: absolute;
 
 div.about {
 
