@@ -114,10 +114,10 @@ img:hover {
      opacity: 0.5;
 }
 
-IMG.displayed {
+img.displayed {
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto; }
 
 @media only screen and (max-width: 900px){
     .responsive {
